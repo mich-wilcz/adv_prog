@@ -13,7 +13,6 @@ sprzedaz['mies_cat'] = pd.Categorical(sprzedaz.Miesiac,
                       ordered=True)
 
 
-
 sprzedaz.sort_values(['mies_cat', 'dzien'], inplace = True, ignore_index = True)
 
 #sprzedaz = sprzedaz.filter(sprzedaz.Miesiac.isin(["styczen", "marzec"]))
