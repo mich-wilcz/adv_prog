@@ -16,7 +16,6 @@ for x in range(w):
             (c1, c2) = (x, y)
 
 
-
 print("Jasne- Red: {}, Green: {}, Blue: {}".format(r, g, b))
 print("Gdzie: x: {} y: {}".format(c1, c2))
 cv2.waitKey(0)
