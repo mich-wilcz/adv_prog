@@ -1,7 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tic
-from matplotlib.ticker import AutoMinorLocator, MultipleLocator
 import math
 
 dane = pd.read_csv('dane_csv.csv', sep = ';', decimal = ',', index_col=0)
